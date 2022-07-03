@@ -1,0 +1,254 @@
+body{
+    background-color: #63433B;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 95%!important ;
+    margin:  0 auto;
+}
+/* -----first unit----- */
+.preview__title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.preview__title P{
+font-size: 24px;
+font-weight: 500;
+color: #fff;
+}
+
+.preview {
+    padding: 30px;
+    border: 14px solid rgb(146, 204, 65);
+}
+
+.box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.box__chg {
+    margin-bottom: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.box__chg span {
+    margin-bottom: 129px;
+}
+
+.box__chg p {
+    margin-bottom: 33px;
+    font-size: 35px;
+}
+
+.box .icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 28px;
+    /* margin-right: 16px; */
+}
+
+.box .icons a{
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+}
+
+.inner__box {
+    position: absolute;
+    left: 30%;
+    border: 7px solid rgb(84, 204, 65);
+    top: -25%;
+    border-radius: 19px;
+    max-height: 133px;
+    max-width: 133px;
+}
+
+.inner__box img{
+    width: 100%;
+}
+
+.preview__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.preview__content h4 {
+    font-size: 28px;
+    color: #fff;
+    margin: 100px 0px 25px;
+}
+
+.preview__content a {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+.preview__content a.first__child {
+    color: #92CC41;
+    margin-bottom: 10px;
+}
+
+.preview__content a.last__child {
+    color: #F71D3A;
+}
+
+.preview__button {
+    position: absolute;
+    bottom: -12%;
+    left: 30%;
+    background-color:rgb(190, 109, 0, 100%);
+    width: 163px;
+    height: 52px;
+    border-radius: 10px;
+    line-height: 52px;
+    font-size: 20px;
+}
+
+.preview__button a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* -----first unit----- */
+
+/* -----middle unit----- */
+.middle__inner .section__foot {
+    text-align: center;
+}
+
+.middle__inner .section__foot a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(39, 214, 138);
+    width: 52%;
+    margin: auto;
+    display: block;
+    padding: 20px;
+    border-radius: 7px;
+}
+/* -----middle unit----- */
+
+
+
+/* ======================================
+        game page start here
+=========================================*/
+
+.mountain__box{
+    border: 8px solid #92CC41;
+}
+
+.mountain__land {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 76px 127px 52px 76px;
+}
+
+.mountain__land svg.svg-inline--fa.fa-xmark {
+    font-size: 28px;
+    color: #fff;
+}
+
+.active__inner p {
+    font-size: 22px;
+    padding: 17px 0 17px 80px;
+    background-color: gray;
+    color: #fff;
+    margin: 30px 0 20px;
+}
+
+.mountain__land .mountain__img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 32%;
+}
+
+.mountain__land .mountain__img > img {
+    width: 90px;
+    height: 90px;
+}
+
+.mountain__land .mountain__img .content h4 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.mountain__land .mountain__img .content a {
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 23px;
+}
+
+.score__stats {
+    display: flex;
+    justify-content: space-between;
+    font-size: 21px;
+    padding: 53px 127px 80px 76px;
+}
+
+.score__stats .state span {
+    display: block;
+    font-size: 22px;
+}
+
+/* -----box slider start here----- */
+.box__slide__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 0 110px;
+}
+
+.box__slide__inner .inner__box{
+    left: 33%;
+}
+
+.box__slide__inner .box {
+    width: 100%;
+}
+
+.box__btn {
+    height: 90px;
+    width: 90px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #635300;
+    border-radius: 50%;
+    border: 5px solid #92CC41;
+    width: 15%;
+}
+
+.box__btn svg.svg-inline--fa {
+    font-size: 41px;
+    color: #fff;
+}
+
+.box__slide__outter .box {
+    width: 24%;
+    margin: auto;
+}
+
+.box__slide__outter .inner__box {
+    left: 33%;
+}
+/* -----box slider end here----- */
+/* ======================================
+        game page start here
+=========================================*/
